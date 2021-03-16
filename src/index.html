@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+    
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6Les-nkaAAAAANdsoV5G1d3yVsiZGqfZM7fn2Dce"></div>
+      <br/>
+      <div id="submit_button" onclick="verifyOneClick()">Get Token</div>
+      <br>
+      <br>
+      <div>ReCaptcha Token:</div>
+      <div id="response_token">waiting</div>
+    </form>
+  </body>
+</html>

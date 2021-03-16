@@ -1,0 +1,9 @@
+#submit_button {
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(38, 166, 100);
+    border-radius: 5px;
+}
